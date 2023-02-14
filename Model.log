@@ -1,0 +1,149 @@
+25/May/2021 16:40:16  *** Warning ***
+                      
+                      This software is licensed for personal and educational purposes only.
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:16  The following farfield monitor(s) have been adjusted to model box [-26.5295,
+                      45.9495, -0.529474, 0.529474, -24.1038, 24.1038].
+                        farfield (f=3.5), farfield (f=7). More...
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:16  
+                      Solver started at: 04:40 PM Tuesday, 25. May 2021 (Bangladesh Standard Time)
+                      
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2020.4 Release from 2020-03-20 (change 767647)
+                      
+
+                      ------------------------------------------------------------------------------
+
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:16  ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+                      
+                      Stimulation at discrete port 1 
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:16  Units settings: 
+                      
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:27  The following discrete face port is connected to metal material:
+                      	1
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:27  Mesh statistics:
+                      
+                         Hexahedral mesh type: PBA [Version: default]
+                      
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 2
+                            Number of calculation domains used: 2
+                      
+                         Used point accuracy enhancement value: 72.00%.
+                         PBA fill limit: 99.00% (inverse)
+
+25/May/2021 16:40:28  Boundary conditions: 
+                      
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+                      
+                        Xmin: expanded open, 4 Layer, depth 17.6912 mm
+                        Xmax: expanded open, 4 Layer, depth 17.6912 mm
+                      
+                        Ymin: expanded open, 4 Layer, depth 17.6912 mm
+                        Ymax: expanded open, 4 Layer, depth 17.6912 mm
+                      
+                        Zmin: expanded open, 4 Layer, depth 20.307 mm
+                        Zmax: expanded open, 4 Layer, depth 20.307 mm
+                      
+                        PML-Type: Convolution PML
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:28  Frequency settings: 
+                      
+                        Fmin:         0
+                        Fmax:         7
+                        Nfsteps(lin): 1001
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:28  Field update statistics:
+                      
+                        Number of components in total: 	424017
+                      
+                      Subcycling state:      Automatically deactivated
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:28  Port: 1
+                      
+25/May/2021 16:40:28    Discrete element, reference impedance = 50 Ohm
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:50  
+                      --------------------------------------------------------------------------------
+25/May/2021 16:40:50  Steady state energy criterion met, solver finished successfully.
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:50  Frequency domain results normalized to default signal.
+                      
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:50  
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     19084                         707752       707752       
+                        Matrices calc.      98632                         670898       615234       
+                        Solver run total    57436                         738152       627452       
+                        ----------------------------------------------------------------------------
+                      
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+                      
+                        Hardware:
+                           Computer name:                 	DESKTOP-TBSI28S 
+                      
+                           Number of CPU threads:               2
+                           Hardware info:                  	Hardware Accelerator Device not activated
+                      
+                        Number of mesh cells:             	67488
+                        Excitation duration:              	5.07792678e-001 ns 
+                        Calculation time for excitation:  	2 	s
+                        Number of calculated pulse widths:	8.47192 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	4550 
+                        Maximum number of time steps:     	10741 
+                        Time step width:
+                           without subcycles:             	9.45490326e-004 ns
+                           used:                          	9.45490326e-004 ns
+                      
+                        CAD preparation time:             	0      	s
+                        Matrix calculation time:          	10 	s
+                        Solver setup time:                	2 	s
+                        Solver loop time:                 	20 	s
+                        Solver post processing time:      	0 	s
+                                                          	------------
+                        Total solver time:                	32 	s
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:51  
+                        Adaptive port meshing time:          	0      	s
+                        Total solver time (all cycles):      	32     	s
+                        solver initialization and clean-up:  	2      	s
+                                                             	------------
+                        Total simulation time:               	34     	s
+                      
+                      ------------------------------------------------------------------------------
+25/May/2021 16:40:51  Solver finished at: 04:40 PM Tuesday, 25. May 2021
+                      
+                      
+                      
+                      ------------------------------------------------------------------------------
