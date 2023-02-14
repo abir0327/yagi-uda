@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2020.4 - Mar 20 2020 - ACIS 29.0.1 - Student Edition
+[Author]
+hp
+[Mesh Cells]
+67,488
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:yagi.cst?936a03335c1a85cd5ddd6f6bf2728e83?37067:numberofparameters=0:port=1>mode=1>zre=0>zim=0
+[Comment]
